@@ -1,0 +1,48 @@
+# Core Dependencies - Fixed versions for stability
+torch==2.1.0
+torchaudio==2.1.0
+transformers==4.35.0
+
+# Kokoro TTS - Latest stable with dependencies
+kokoro-tts==0.9.4
+espeakng==1.0.3
+misaki==0.9.3
+
+# FastAPI and Web Server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+aiofiles==23.2.1
+websockets==12.0
+
+# Audio Processing
+scipy==1.11.4
+numpy==1.24.3
+soundfile==0.12.1
+librosa==0.10.1
+pydub==0.25.1
+
+# Redis for caching
+redis==5.0.1
+
+# Database and Auth
+sqlalchemy==2.0.23
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+
+# Pydantic with warning fix
+pydantic==2.5.0
+pydantic-settings==2.0.3
+
+# Logging and monitoring
+python-json-logger==2.0.7
+
+# Environment and Config
+python-dotenv==1.0.0
+
+# Speech recognition (for STT)
+SpeechRecognition==3.10.1
+pyaudio==0.2.14
+
+# CORS handling
+fastapi-cors==0.0.6
